@@ -6,5 +6,5 @@ export default defineConfig({
   integrations: [tailwind(), robotsTxt()],
 
   site: "https://alvarohortelanofernandez.github.io",
-  base: "/porfolio",
+  base: "/porfolio/",
 });
