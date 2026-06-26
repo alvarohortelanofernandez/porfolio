@@ -1,0 +1,72 @@
+---
+const personalImageAlt = "Álvaro Hortelano"
+import Badge from "@/components/Badge.astro"
+import GitHubIcon from "@/components/icons/GitHub.astro"
+import LinkedInIcon from "@/components/icons/LinkedIn.astro"
+import MailIcon from "@/components/icons/Mail.astro"
+import CVIcon from "@/components/icons/CV.astro"
+import SparklesIcon from "@/components/icons/Sparkles.astro"
+import SocialPill from "@/components/SocialPill.astro"
+---
+
+<div class="max-w-xl">
+  <div class="anim-fade-in flex gap-4 mb-6 items-center">
+    <!-- Avatar with ambient glow -->
+    <div class="relative flex-shrink-0">
+      <div
+        class="absolute inset-0 rounded-full bg-indigo-400/30 dark:bg-indigo-400/20 blur-xl scale-125"
+        aria-hidden="true"
+      >
+      </div>
+      <img
+        class="relative rounded-full shadow-2xl size-20 ring-2 ring-indigo-400/60 ring-offset-2 ring-offset-gray-50 dark:ring-offset-gray-950"
+        src="/alvarohortelanofernandez_1.png"
+        alt={personalImageAlt}
+      />
+    </div>
+    <a
+      href="https://linkedin.com/in/alvarohortelanofernandez"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="flex items-center transition md:justify-center md:hover:scale-105"
+    >
+      <Badge><SparklesIcon class="size-3" /> Disponible para trabajar</Badge>
+    </a>
+  </div>
+
+  <h1
+    class="anim-fade-in anim-delay-1 text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white"
+  >
+    Hey, soy <span class="gradient-name">Álvaro Hortelano</span>
+  </h1>
+
+  <p
+    class="anim-fade-in anim-delay-2 mt-6 text-xl text-gray-800 dark:[&>strong]:text-indigo-200 [&>strong]:text-indigo-500 [&>strong]:font-semibold dark:text-gray-300"
+  >
+    En constante aprendizaje. <strong>Desarrollador Full Stack</strong> de Córdoba,
+  España 🇪🇸. Apasionado por el desarrollo web, Linux, DevOps y la construcción
+  de software moderno y escalable.
+  </p>
+
+  <nav
+    class="anim-fade-in anim-delay-3 flex flex-wrap gap-4 mt-8"
+    aria-label="Redes sociales y contacto"
+  >
+    <SocialPill href="mailto:alvarohortelanofernandez@gmail.com">
+      <MailIcon class="size-4" />
+      Contáctame
+    </SocialPill>
+    <SocialPill href="https://linkedin.com/in/alvarohortelanofernandez">
+      <LinkedInIcon class="size-4" />
+      LinkedIn
+    </SocialPill>
+    <SocialPill href="https://github.com/alvarohortelanofernandez">
+      <GitHubIcon class="size-4" />
+      GitHub
+    </SocialPill>
+    <SocialPill href="https://github.com/alvarohortelanofernandez">
+      <CVIcon class="size-5" />
+      Currículum
+    </SocialPill>
+  </nav>
+</div>

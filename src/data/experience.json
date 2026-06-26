@@ -1,0 +1,16 @@
+[
+  {
+    "date": "Febrero 2026 – Mayo 2026",
+    "title": "Desarrollador Full Stack",
+    "company": "Deuser (Indra Group)",
+    "description": "Participé en el desarrollo y mantenimiento de aplicaciones web empresariales utilizando Angular, React, TypeScript y JavaScript en el frontend, junto con C# y SQL Server en el backend.\n\n Trabajé en la integración de APIs REST, optimización de procesos de desarrollo y colaboración dentro de equipos ágiles mediante Scrum y Kanban. También utilicé herramientas como GitHub, Docker y Bash Linux para mejorar flujos de trabajo y despliegues.",
+    "link": "https://drive.google.com/file/d/1oC8OvRxblXFI6cqs1C1KuuBlyx8JjpzP/view?usp=drive_link",
+    "current": true
+  },
+  {
+    "date": "Septiembre 2022 – Diciembre 2022",
+    "title": "Técnico de Soporte y Mantenimiento de Sistemas",
+    "company": "PC BOX",
+    "description": "Realicé tareas de mantenimiento preventivo y correctivo de equipos informáticos, soporte técnico a clientes, configuración de redes locales y administración de copias de seguridad.\n\n Participé en la configuración y despliegue de infraestructura de red para el proyecto de la organización Proyecto Hombre, adquiriendo experiencia práctica en sistemas, hardware y networking."
+  }
+]

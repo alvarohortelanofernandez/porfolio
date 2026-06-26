@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Relance - Plataforma para talento emergente",
+    "description": "Plataforma diseñada para impulsar el talento emergente en el sector tecnológico. Permite a desarrolladores crear un perfil profesional, mostrar sus proyectos y habilidades, y conectar con empresas y reclutadores que buscan nuevos perfiles, facilitando el acceso a las primeras oportunidades laborales.",
+    "link": "https://relance-platform.vercel.app",
+    "github": "https://github.com/alvarohortelanofernandez/relance",
+    "image": "/projects/relance.webp",
+    "tags": ["REACT", "TYPESCRIPT", "TAILWIND", "SUPABASE"]
+  },
+  {
+    "title": "Relance - Plataforma para talento emergente",
+    "description": "Plataforma web creada para ayudar a desarrolladores y profesionales junior a dar visibilidad a su perfil, compartir sus proyectos y conectar con empresas en busca de nuevo talento.",
+    "link": "https://relance-platform.vercel.app",
+    "github": "https://github.com/alvarohortelanofernandez/relance",
+    "image": "/projects/relance.webp",
+    "tags": ["REACT", "TYPESCRIPT", "TAILWIND", "SUPABASE"]
+  }
+]
