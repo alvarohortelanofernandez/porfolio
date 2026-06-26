@@ -6,13 +6,5 @@
     "github": "https://github.com/alvarohortelanofernandez/relance",
     "image": "/projects/relance.webp",
     "tags": ["REACT", "TYPESCRIPT", "TAILWIND", "SUPABASE"]
-  },
-  {
-    "title": "Relance - Plataforma para talento emergente",
-    "description": "Plataforma web creada para ayudar a desarrolladores y profesionales junior a dar visibilidad a su perfil, compartir sus proyectos y conectar con empresas en busca de nuevo talento.",
-    "link": "https://relance-platform.vercel.app",
-    "github": "https://github.com/alvarohortelanofernandez/relance",
-    "image": "/projects/relance.webp",
-    "tags": ["REACT", "TYPESCRIPT", "TAILWIND", "SUPABASE"]
   }
 ]
