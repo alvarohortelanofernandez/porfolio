@@ -20,8 +20,11 @@ jobs:
         with:
           node-version: 20
 
-      - name: Enable pnpm
+      - name: Enable Corepack
         run: corepack enable
+
+      - name: Use stable pnpm version
+        run: corepack prepare pnpm@8.15.0 --activate
 
       - name: Install dependencies
         run: pnpm install
@@ -29,8 +32,7 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - name: Upload build artifact
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
@@ -43,6 +45,5 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
+      - id: deployment
         uses: actions/deploy-pages@v4
