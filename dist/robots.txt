@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alvarohortelanofernandez.github.io/porfolio/sitemap-index.xml
