@@ -1,0 +1,9 @@
+# Dependencias
+node_modules/
+
+# Archivos generados por Astro
+.astro/
+
+# Variables de entorno (si en un futuro las usas)
+.env
+.env.*
